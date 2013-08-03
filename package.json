@@ -19,5 +19,8 @@
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "keywords": ["concat", "concatenate", "minify", "minifier", "compiler", "uglifyjs", "cache","bust", "deployment", "ci", "hashcat"]
+
+
 }

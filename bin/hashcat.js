@@ -6,7 +6,7 @@ hcat = require(lib + '/libhashcat.js');
 
 if(process.argv.length < 3 || process.argv[2][0] == '-')
 {
-    console.log('Usage: hashcat index.html');
+    console.log('Usage: hashcat yourfile.html' + '\r\n' + 'See: http://github.com/mendhak/node-hashcat/');
     process.exit(1);
 }
 
