@@ -11,7 +11,10 @@
   "bin": {
     "hashcat": "bin/hashcat.js"
   },
-  "dependencies": {},
+  "dependencies": {
+      "lockfile": "~0.4.0",
+      "node-minify": "~0.7.5"
+  },
   "devDependencies": {
     "lockfile": "~0.4.0",
     "node-minify": "~0.7.5"
