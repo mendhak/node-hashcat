@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="node hashcat : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>node hashcat</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mendhak/node-hashcat">View on GitHub</a>
+
+          <h1 id="project_title">node hashcat</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mendhak/node-hashcat/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mendhak/node-hashcat/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="hashcat" class="anchor" href="#hashcat"><span class="octicon octicon-link"></span></a>hashcat</h1>
+
+<p>A commandline utility to concatenate, minify and cache-bust your Javascript references in HTML.</p>
+
+<p>It works by parsing the HTML file for special markup.  It then concatenates, minifies, hashes and replaces references to those files.  It is ideal for use with a build tool as part of your CI pipeline.</p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<pre><code>npm install -g hashcat
+</code></pre>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Prepare your references by surrounding them with special comment blocks.</p>
+
+<pre><code>&lt;!-- #cat app-min.js --&gt;
+&lt;script src="1.js" /&gt;
+&lt;script type="text/javascript" src="other-folder/3.js"&gt;&lt;/script&gt;
+&lt;!-- endcat --&gt;
+</code></pre>
+
+<p>Pass the HTML file to hashcat</p>
+
+<pre><code>hashcat app/index.html
+</code></pre>
+
+<p>After processing, the above reference should be replaced with something like this:</p>
+
+<pre><code>&lt;script src="d41d8cd9.app-min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<h2>
+<a name="how" class="anchor" href="#how"><span class="octicon octicon-link"></span></a>How</h2>
+
+<p>The two Javascript files are concatenated and minified into a single file.
+A hash of the resulting file's contents is then taken and the first 8 characters are prepended to the file's name.
+Finally, the reference blocks in the HTML are replaced with this new file.</p>
+
+<p>The concatenation and minification allow for multiple files during development but a smaller, simpler asset in production.</p>
+
+<p>The hash rename provides cache busting by changing the file name on each deployment if the contents have changed.</p>
+
+<h2>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+
+<p>This tool is similar to the <a href="https://github.com/yeoman/grunt-usemin">grunt-usemin</a> task.  Currently, it uses some of the processing code but only processes Javascript references.</p>
+
+<p>In our case, using grunt as part of a CI pipeline meant having to run <code>npm install</code> hundreds of times a day which was not desirable.
+A standalone tool solves this specific problem by reducing the external dependencies and does not leave the build agent in a transient state.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">node hashcat maintained by <a href="https://github.com/mendhak">mendhak</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
