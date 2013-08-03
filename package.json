@@ -1,20 +1,23 @@
 {
-    "author": "Mendhak",
-    "name": "hashcat",
-    "description": "Node commandline application to ...",
-    "version": "0.1.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mendhak/node-hashcat.git"
-    },
-    "main": "hashcat",
-    "bin": {
-        "hashcat": "bin/hashcat.js"
-    },
-    "dependencies": {},
-    "devDependencies": {},
-    "optionalDependencies": {},
-    "engines": {
-        "node": "*"
-    }
+  "author": "Mendhak",
+  "name": "hashcat",
+  "description": "Node commandline application to ...",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mendhak/node-hashcat.git"
+  },
+  "main": "hashcat",
+  "bin": {
+    "hashcat": "bin/hashcat.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lockfile": "~0.4.0",
+    "node-minify": "~0.7.5"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
