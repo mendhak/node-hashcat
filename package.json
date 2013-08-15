@@ -12,18 +12,28 @@
     "hashcat": "bin/hashcat.js"
   },
   "dependencies": {
-      "lockfile": "~0.4.0",
-      "node-minify": "~0.7.5"
+  "lockfile": "~0.4.0",
+  "uglify-js": "~2.3.6"
   },
   "devDependencies": {
     "lockfile": "~0.4.0",
-    "node-minify": "~0.7.5"
+    "uglify-js": "~2.3.6"
   },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
   },
-  "keywords": ["concat", "concatenate", "minify", "minifier", "compiler", "uglifyjs", "cache","bust", "deployment", "ci", "hashcat"]
-
-
+  "keywords": [
+    "concat",
+    "concatenate",
+    "minify",
+    "minifier",
+    "compiler",
+    "uglifyjs",
+    "cache",
+    "bust",
+    "deployment",
+    "ci",
+    "hashcat"
+  ]
 }
