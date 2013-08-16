@@ -2,7 +2,7 @@
   "author": "Mendhak",
   "name": "hashcat",
   "description": "Commandline application to concatenate, minify, cache-bust and replace JS references",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/mendhak/node-hashcat.git"
