@@ -1,0 +1,10 @@
+/* The first CSS file */
+body {
+    color: green;
+}
+
+html {
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: Arial;
+}
