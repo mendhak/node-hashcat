@@ -65,7 +65,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="170" selection-end="170" vertical-scroll-proportion="0.106038295" vertical-offset="0" max-vertical-offset="828">
+            <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="0.5036819" vertical-offset="0" max-vertical-offset="828">
               <folding />
             </state>
           </provider>
@@ -466,7 +466,11 @@
       <created>1381610141293</created>
       <updated>1381610141293</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Version 0.2">
+      <created>1381610675645</created>
+      <updated>1381610675645</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -543,7 +547,8 @@
     <MESSAGE value="Setup for sample CSS" />
     <MESSAGE value="Removed kat, don't need it" />
     <MESSAGE value="hashcatify allows CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashcatify allows CSS" />
+    <MESSAGE value="Version 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="170" selection-end="170" vertical-scroll-proportion="0.106038295" vertical-offset="0" max-vertical-offset="828">
+        <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="0.5036819" vertical-offset="0" max-vertical-offset="828">
           <folding />
         </state>
       </provider>
