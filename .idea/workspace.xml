@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="580d07b3-43b4-4c1a-96fd-63c81be61b60" name="Default" comment="Updated version 0.1.1">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/htmlprocessor.js" afterPath="$PROJECT_DIR$/lib/htmlprocessor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/libhashcat.js" afterPath="$PROJECT_DIR$/lib/libhashcat.js" />
+    <list default="true" id="580d07b3-43b4-4c1a-96fd-63c81be61b60" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="node-hashcat.iws" />
@@ -63,19 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="519" selection-end="519" vertical-scroll-proportion="-8.148149" vertical-offset="140" max-vertical-offset="828">
+            <state line="4" column="27" selection-start="170" selection-end="170" vertical-scroll-proportion="0.106038295" vertical-offset="0" max-vertical-offset="828">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="libhashcat.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="libhashcat.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/libhashcat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.97450423" vertical-offset="644" max-vertical-offset="2826">
+            <state line="74" column="0" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="2826">
               <folding />
             </state>
           </provider>
@@ -129,10 +128,10 @@
         <option value="$PROJECT_DIR$/example/vendor/second.css" />
         <option value="$PROJECT_DIR$/example/first.css" />
         <option value="$PROJECT_DIR$/example/second.css" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/htmlprocessor.js" />
         <option value="$PROJECT_DIR$/example/tryMe.html" />
         <option value="$PROJECT_DIR$/lib/libhashcat.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -463,7 +462,11 @@
       <created>1381609813578</created>
       <updated>1381609813578</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="hashcatify allows CSS">
+      <created>1381610141293</created>
+      <updated>1381610141293</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -539,7 +542,8 @@
     <MESSAGE value="Reference to kat" />
     <MESSAGE value="Setup for sample CSS" />
     <MESSAGE value="Removed kat, don't need it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed kat, don't need it" />
+    <MESSAGE value="hashcatify allows CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashcatify allows CSS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="519" selection-end="519" vertical-scroll-proportion="-8.148149" vertical-offset="140" max-vertical-offset="828">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/tryMe.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="31" selection-start="169" selection-end="169" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="504">
@@ -658,7 +655,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/libhashcat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.97450423" vertical-offset="644" max-vertical-offset="2826">
+        <state line="74" column="0" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="2826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="170" selection-end="170" vertical-scroll-proportion="0.106038295" vertical-offset="0" max-vertical-offset="828">
           <folding />
         </state>
       </provider>
