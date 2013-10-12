@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580d07b3-43b4-4c1a-96fd-63c81be61b60" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="node-hashcat.iws" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="tryMe.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/tryMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="169" selection-end="169" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="504">
+            <state line="4" column="0" selection-start="50" selection-end="205" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -62,10 +62,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="0.5036819" vertical-offset="0" max-vertical-offset="828">
+            <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="828">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="24" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.59398496" vertical-offset="433" max-vertical-offset="1098">
               <folding />
             </state>
           </provider>
@@ -116,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/example/vendor/3.js" />
         <option value="$PROJECT_DIR$/example/1.js" />
         <option value="$PROJECT_DIR$/example/conc.js" />
@@ -132,6 +143,7 @@
         <option value="$PROJECT_DIR$/example/tryMe.html" />
         <option value="$PROJECT_DIR$/lib/libhashcat.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -470,7 +482,11 @@
       <created>1381610675645</created>
       <updated>1381610675645</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Version 0.2.1">
+      <created>1381610777255</created>
+      <updated>1381610777255</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -548,7 +564,8 @@
     <MESSAGE value="Removed kat, don't need it" />
     <MESSAGE value="hashcatify allows CSS" />
     <MESSAGE value="Version 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2" />
+    <MESSAGE value="Version 0.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -584,11 +601,6 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/hashcat.js">
@@ -644,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/tryMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="169" selection-end="169" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/htmlprocessor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="173" column="86" selection-start="5336" selection-end="5336" vertical-scroll-proportion="0.0" vertical-offset="2861" max-vertical-offset="3780">
@@ -667,7 +672,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="0.5036819" vertical-offset="0" max-vertical-offset="828">
+        <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/tryMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="50" selection-end="205" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="24" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.59398496" vertical-offset="433" max-vertical-offset="1098">
           <folding />
         </state>
       </provider>
