@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="580d07b3-43b4-4c1a-96fd-63c81be61b60" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="580d07b3-43b4-4c1a-96fd-63c81be61b60" name="Default" comment="Node library references for WebStorm">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Node_js_Dependencies_for_node_hashcat.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="node-hashcat.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tryMe.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tryMe.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/tryMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="50" selection-end="205" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="504">
+            <state line="22" column="42" selection-start="495" selection-end="495" vertical-scroll-proportion="0.6055046" vertical-offset="0" max-vertical-offset="654">
               <folding />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="70" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+            <state line="13" column="0" selection-start="70" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
       <file leaf-file-name=".npmignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.npmignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="15" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -65,19 +65,19 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="828">
+            <state line="23" column="24" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="24" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.59398496" vertical-offset="433" max-vertical-offset="1098">
+            <state line="46" column="0" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1098">
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
       <file leaf-file-name="libhashcat.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/libhashcat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="2826">
+            <state line="77" column="0" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2844">
               <folding />
             </state>
           </provider>
@@ -141,9 +141,9 @@
         <option value="$PROJECT_DIR$/example/second.css" />
         <option value="$PROJECT_DIR$/lib/htmlprocessor.js" />
         <option value="$PROJECT_DIR$/example/tryMe.html" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/libhashcat.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -202,7 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,6 +268,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,7 +486,15 @@
       <created>1381610777255</created>
       <updated>1381610777255</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated readme.md">
+      <created>1381611165207</created>
+      <updated>1381611165207</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Node library references for WebStorm">
+      <created>1383895775446</created>
+      <updated>1383895775446</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -514,15 +522,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33025098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15181866" sideWeight="0.69536424" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15181866" sideWeight="0.6717124" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545885" sideWeight="0.49973643" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545885" sideWeight="0.5002636" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30463576" sideWeight="0.49973643" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30463576" sideWeight="0.49973643" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -540,8 +548,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Initial commit, empty project" />
-    <MESSAGE value="Corrected lib require path" />
     <MESSAGE value="Basic workflow with string replacements" />
     <MESSAGE value="Processing one block" />
     <MESSAGE value="Working with multiple blocks" />
@@ -565,7 +571,9 @@
     <MESSAGE value="hashcatify allows CSS" />
     <MESSAGE value="Version 0.2" />
     <MESSAGE value="Version 0.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2.1" />
+    <MESSAGE value="Updated readme.md" />
+    <MESSAGE value="Node library references for WebStorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node library references for WebStorm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,12 +590,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/libhashcat.js</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/libhashcat.js</url>
-          <line>54</line>
+          <line>55</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
@@ -598,6 +606,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/example/second.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -637,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="15" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
@@ -663,33 +678,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/libhashcat.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="2826">
+        <state line="46" column="0" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1098">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="146" selection-start="493" selection-end="493" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="828">
+        <state line="23" column="24" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/libhashcat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2844">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/tryMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="50" selection-end="205" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="24" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.59398496" vertical-offset="433" max-vertical-offset="1098">
+        <state line="22" column="42" selection-start="495" selection-end="495" vertical-scroll-proportion="0.6055046" vertical-offset="0" max-vertical-offset="654">
           <folding />
         </state>
       </provider>
