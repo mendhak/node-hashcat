@@ -2,6 +2,8 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{Node.js Dependencies for node-hashcat}" />
+    <file url="PROJECT" libraries="{Node Modules, Node.js Dependencies for node-hashcat}" />
+    <includedPredefinedLibrary name="Node.js Globals" />
   </component>
 </project>
 
