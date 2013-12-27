@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="580d07b3-43b4-4c1a-96fd-63c81be61b60" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/libhashcat.js" afterPath="$PROJECT_DIR$/lib/libhashcat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/tryMe.html" afterPath="$PROJECT_DIR$/example/tryMe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="node-hashcat.iws" />
@@ -39,7 +38,7 @@
       <file leaf-file-name="libhashcat.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/libhashcat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="27" selection-start="3963" selection-end="3963" vertical-scroll-proportion="0.64051354" vertical-offset="1531" max-vertical-offset="2304">
+            <state line="110" column="27" selection-start="3976" selection-end="3976" vertical-scroll-proportion="0.46077034" vertical-offset="1657" max-vertical-offset="2358">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="tryMe.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/tryMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="342">
+            <state line="17" column="41" selection-start="414" selection-end="414" vertical-scroll-proportion="-5.3333335" vertical-offset="162" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -481,7 +480,11 @@
       <created>1388146787386</created>
       <updated>1388146787386</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Error handling and reporting">
+      <created>1388149199597</created>
+      <updated>1388149199597</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -517,7 +520,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.394712" sideWeight="0.49973643" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545885" sideWeight="0.5002636" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30936614" sideWeight="0.49973643" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30936614" sideWeight="0.49973643" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -535,7 +538,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Options object for module" />
     <MESSAGE value="Added node dependencies" />
     <MESSAGE value="Cleanup, removed files" />
     <MESSAGE value="Usage and argv processing" />
@@ -560,7 +562,8 @@
     <MESSAGE value="Updated version 0.2.2" />
     <MESSAGE value="Added more console logging" />
     <MESSAGE value="Made hashcat synchronous since it's a console app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made hashcat synchronous since it's a console app" />
+    <MESSAGE value="Error handling and reporting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error handling and reporting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -652,14 +655,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/tryMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="342">
+        <state line="17" column="41" selection-start="414" selection-end="414" vertical-scroll-proportion="-5.3333335" vertical-offset="162" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/libhashcat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="27" selection-start="3963" selection-end="3963" vertical-scroll-proportion="0.64051354" vertical-offset="1531" max-vertical-offset="2304">
+        <state line="110" column="27" selection-start="3976" selection-end="3976" vertical-scroll-proportion="0.46077034" vertical-offset="1657" max-vertical-offset="2358">
           <folding />
         </state>
       </provider>
