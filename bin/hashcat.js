@@ -16,7 +16,7 @@ if(process.argv.length < 3 || process.argv[2][0] == '-')
 
 var options = {
     htmlFile: process.argv[2],
-    outputHtmlFile: process.argv[3]
+    outputHtmlFile: process.argv[3] || process.argv[2]
 }
 
 hcat.hashcatify(options);
