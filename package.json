@@ -1,11 +1,11 @@
 {
   "author": "Mendhak",
-  "name": "hashcat",
+  "name": "hashcat-nf",
   "description": "Commandline application to concatenate, minify, cache-bust and replace JS references",
-  "version": "0.2.6",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mendhak/node-hashcat.git"
+    "url": "https://github.com/nigelfds/node-hashcat"
   },
   "main": "hashcat",
   "bin": {

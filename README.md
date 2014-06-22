@@ -1,6 +1,8 @@
 hashcat
 ============
 
+# Forked for specific edits. Use http://code.mendhak.com/node-hashcat for the original
+
 A commandline utility to concatenate, minify and cache-bust your Javascript and CSS references in HTML.
 
 It works by parsing the HTML file for special markup.  It then concatenates, minifies, hashes and replaces references to those files.  It is ideal for use with a build tool as part of your CI pipeline.
@@ -27,7 +29,7 @@ Prepare your references by surrounding them with special comment blocks.
 Pass the HTML file to hashcat
 
     hashcat app/index.html
-    
+
 After processing, the above reference should be replaced with something like this:
 
     <link rel="stylesheet" href="ec784ace.min.css" />
@@ -51,5 +53,3 @@ This tool is similar to the [grunt-usemin](https://github.com/yeoman/grunt-usemi
 
 In our case, using grunt as part of a CI pipeline meant having to run `npm install` hundreds of times a day which was not desirable.
 This standalone tool solves this specific problem by reducing the external dependencies and does not leave the build agent in a transient state.
-
-
