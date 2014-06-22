@@ -27,7 +27,7 @@ Prepare your references by surrounding them with special comment blocks.
 Pass the HTML file to hashcat
 
     hashcat app/index.html
-    
+
 After processing, the above reference should be replaced with something like this:
 
     <link rel="stylesheet" href="ec784ace.min.css" />
@@ -51,5 +51,3 @@ This tool is similar to the [grunt-usemin](https://github.com/yeoman/grunt-usemi
 
 In our case, using grunt as part of a CI pipeline meant having to run `npm install` hundreds of times a day which was not desirable.
 This standalone tool solves this specific problem by reducing the external dependencies and does not leave the build agent in a transient state.
-
-
