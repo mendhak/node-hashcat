@@ -1,8 +1,6 @@
 hashcat
 ============
 
-# Forked for specific edits. Use http://code.mendhak.com/node-hashcat for the original
-
 A commandline utility to concatenate, minify and cache-bust your Javascript and CSS references in HTML.
 
 It works by parsing the HTML file for special markup.  It then concatenates, minifies, hashes and replaces references to those files.  It is ideal for use with a build tool as part of your CI pipeline.
