@@ -33,6 +33,10 @@ After processing, the above reference should be replaced with something like thi
     <link rel="stylesheet" href="ec784ace.min.css" />
     <script src="d41d8cd9.app-min.js"></script>
 
+You can have hashcat output to another file as well
+
+    hashcat app/index.html app/outputFile.html
+
 ##How
 
 Hashcat parses the HTML files, looks for the `#cat` blocks and gathers the files up.
