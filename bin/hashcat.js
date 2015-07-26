@@ -1,10 +1,12 @@
 #!/usr/bin/env node
+
 var path = require('path');
 var fs = require('fs');
+var debug = require("debug")("hashcat");
 var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 var pjson = require(path.join(path.dirname(fs.realpathSync(__filename)), '../package.json'));
 
-console.log("Hashcat version " + pjson.version);
+debug("Hashcat version " + pjson.version);
 
 hcat = require(lib + '/libhashcat.js');
 
