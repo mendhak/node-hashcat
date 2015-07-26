@@ -7,6 +7,12 @@
     "type": "git",
     "url": "https://github.com/mendhak/node-hashcat.git"
   },
+  "contributors": [
+    {
+      "name": "Martin Grandrath",
+      "email": "mail@martin-grandrath.de"
+    }
+  ],
   "main": "hashcat",
   "bin": {
     "hashcat": "bin/hashcat.js"
