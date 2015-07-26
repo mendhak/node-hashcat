@@ -24,7 +24,8 @@
     "fs-extra": "~0.8.1",
     "faucet": "0.0.1",
     "tape": "~4.0.1",
-    "temp": "~0.8.3"
+    "temp": "~0.8.3",
+    "sync-exec": "~0.6.1"
   },
   "optionalDependencies": {},
   "engines": {
