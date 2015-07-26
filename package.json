@@ -15,16 +15,10 @@
     "test": "tape ./**/_*_test.js | faucet"
   },
   "dependencies": {
-    "lockfile": "~0.4.0",
     "uglify-js": "~2.3.6",
-    "clean-css": "~1.1.3",
-    "fs-extra": "~0.8.1"
+    "clean-css": "~1.1.3"
   },
   "devDependencies": {
-    "lockfile": "~0.4.0",
-    "uglify-js": "~2.3.6",
-    "clean-css": "~1.1.3",
-    "fs-extra": "~0.8.1",
     "faucet": "0.0.1",
     "tape": "~4.0.1",
     "temp": "~0.8.3",
