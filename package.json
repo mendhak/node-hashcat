@@ -11,6 +11,9 @@
   "bin": {
     "hashcat": "bin/hashcat.js"
   },
+  "scripts": {
+    "test": "tape ./**/_*_test.js | faucet"
+  },
   "dependencies": {
     "lockfile": "~0.4.0",
     "uglify-js": "~2.3.6",

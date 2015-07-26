@@ -1,5 +1,6 @@
 .idea/
 lib-cov
+*~
 *.seed
 *.log
 *.csv
