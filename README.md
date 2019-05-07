@@ -8,7 +8,7 @@ It works by parsing the HTML file for special markup.  It then concatenates, min
 
 ## Install
 
-    npm install -g hashcat
+    npm install hashcat
 
 ## Usage
 
@@ -26,7 +26,7 @@ Prepare your references by surrounding them with special comment blocks.
 
 Pass the HTML file to hashcat
 
-    hashcat app/index.html
+    $(npm bin)/hashcat app/index.html
 
 After processing, the above reference should be replaced with something like this:
 
@@ -35,7 +35,7 @@ After processing, the above reference should be replaced with something like thi
 
 You can have hashcat output to another file as well
 
-    hashcat app/index.html app/outputFile.html
+    $(npm bin)/hashcat app/index.html app/outputFile.html
 
 ## How
 
