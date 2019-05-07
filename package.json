@@ -19,7 +19,8 @@
     "hashcat": "bin/hashcat.js"
   },
   "scripts": {
-    "test": "tape ./**/_*_test.js | faucet"
+    "test": "tape ./**/_*_test.js | faucet",
+    "tryMe": "node bin/hashcat.js example/tryMe.html example/output.html"
   },
   "dependencies": {
     "uglify-js": "~2.4.24",

@@ -8,5 +8,5 @@
 
 function myFunction(name,job)
 {
-    alert("Welcome " + name + ", the " + job);
+    alert(`Welcome ${name}, the ${job}`);
 }
