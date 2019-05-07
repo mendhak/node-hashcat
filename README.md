@@ -6,11 +6,11 @@ A commandline utility to concatenate, minify and cache-bust your Javascript and 
 It works by parsing the HTML file for special markup.  It then concatenates, minifies, hashes and replaces references to those files.  It is ideal for use with a build tool as part of your CI pipeline.
 
 
-##Install
+## Install
 
     npm install -g hashcat
 
-##Usage
+## Usage
 
 Prepare your references by surrounding them with special comment blocks.
 
@@ -37,7 +37,7 @@ You can have hashcat output to another file as well
 
     hashcat app/index.html app/outputFile.html
 
-##How
+## How
 
 Hashcat parses the HTML files, looks for the `#cat` blocks and gathers the files up.
 The Javascript/CSS files are concatenated and minified into a single file.
@@ -49,9 +49,25 @@ The concatenation and minification allow for multiple files during development b
 The hash rename provides cache busting by changing the file name on each deployment if the contents have changed.
 
 
-##About
+## About
 
 This tool is similar to the [grunt-usemin](https://github.com/yeoman/grunt-usemin) task.
 
 In our case, using grunt as part of a CI pipeline meant having to run `npm install` hundreds of times a day which was not desirable.
 This standalone tool solves this specific problem by reducing the external dependencies and does not leave the build agent in a transient state.
+
+
+## Local development
+
+You can work with this repo directly.  
+
+Use the VSCode task included 
+
+    npm:tryMe
+
+Or invoke the node script directly, 
+
+    node bin/hashcat.js example/tryMe.html
+
+And watch for the changes that occur in `tryMe.html` as well as the new files that appear.      
+
